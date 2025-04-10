@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  preview: {
+    allowedHosts: ['agriclim-mvp.onrender.com'],
+  },
   server: {
     port: 8080,
   },
